@@ -1,4 +1,3 @@
-// Weather.js
 import React from 'react';
 import styled from 'styled-components';
 
@@ -39,8 +38,7 @@ const Weather = ({ weatherData }) => {
   if (!weatherData) {
     return null;
   }
-
-  // 켈빈 온도를 섭씨로 변환하는 함수
+  
   const kelvinToCelsius = (kelvin) => {
     return (kelvin - 273.15).toFixed(2);
   };

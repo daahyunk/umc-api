@@ -18,21 +18,21 @@ const WeatherContainer = styled.div`
 
 const Temperature = styled.p`
   font-size: 50px;
-  margin: 5px 0; /* Adjust the top and bottom margin */
+  margin: 5px 0;
 `;
 
 const City = styled.p`
   font-size: 25px;
   font-weight: 300;
-  align-self: flex-start; /* Align to the left */
-  margin: 5px 0; /* Adjust the top and bottom margin */
+  align-self: flex-start; 
+  margin: 5px 0; 
 `;
 
 const WeatherInfo = styled.p`
   font-size: 25px;
   font-weight: 300;
-  align-self: flex-end; /* Align to the right */
-  margin: 5px 0; /* Adjust the top and bottom margin */
+  align-self: flex-end; 
+  margin: 5px 0; 
 `;
 
 const Weather = ({ weatherData }) => {
